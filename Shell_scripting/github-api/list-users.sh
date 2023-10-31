@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#Author : Nitish Raj
+#Date   : 31 - 10 -2023
+#Purpose: To efficiently use shell scripting and Github API to automate things in an easy and time saving manner. 
+#Description : This project involves shell scripting  to interact with a version control system which is nothing but github and checks for a particular organization and lists the users in that particular organization. 
+
+
+
 # GitHub API URL
 API_URL="https://api.github.com"
 
