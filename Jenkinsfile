@@ -7,5 +7,10 @@ pipeline {
                 echo 'Hello, World!'
             }
         }
+        stage('Running python file'){
+            steps {
+                bat 'python3 basic.py'
+            }
+        }
     }
 }
