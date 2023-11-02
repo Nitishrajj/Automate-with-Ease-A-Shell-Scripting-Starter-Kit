@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Running python file'){
             steps {
-                bat 'python3 basic.py'
+                bat 'python basic.py'
             }
         }
     }
