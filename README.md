@@ -26,3 +26,21 @@ So, the data of Netflix is stored in S3 and when a new object is uploaded our La
 boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python. It allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2. Here's a breakdown of key points related to boto3.
 
 # Getting Started 
+
+# Pre requisites 
+Minimal knowledge on Linux and shell scripting
+Python knowledge 
+
+File structure - 
+requirements.txt file is the file to add required python modules
+s3-lambda-function.py file used to create a Lambda function using python boto3 module (python module to interact with AWS
+s3-notification-triggers.sh file used for shell scripting automation. 
+
+Install AWI CLI (Click on below link for reference for MAC/Windows/Linux)
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+After installing AWS CLI, you need to configure your access to access the AWS using AWS CLI 
+So take the access, secret key using IAM User of AWS and provide to the CLI after giving "AWS Configure". 
+Now your all set to make an S3 event triggering using S3/Lambda/SNS/Shell scripting 
+Use the command "s3-notification-triggers.sh" 
+This will run the file and do the needed modifications in the AWS. 
