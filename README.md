@@ -22,4 +22,7 @@ Let us take an example of Netflix application and think that this application da
 So, suppose you have registered for netflix to send you mails whenever a video gets uploaded in a particular channel our funciton gets triggered. 
 So, the data of Netflix is stored in S3 and when a new object is uploaded our Lambda function gets triggered and this lambda function with destination SNS will send you the mail (only if you subscribe). 
 
+# boto3 
+boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python. It allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2. Here's a breakdown of key points related to boto3.
+
 # Getting Started 
