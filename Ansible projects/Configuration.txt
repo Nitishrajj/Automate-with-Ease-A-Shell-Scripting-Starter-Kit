@@ -1,9 +1,0 @@
-Configuration management in between 2 ec2 instances is done. 
-1 is Ansible server and other second is target server so you first use ssh to connect between these 2. 
-This connection which should be established without a password also called password less authentication is established using " ssh-keygen " command in the cli. 
-Now a public and private keys are generated, you can use public key to connect between servers and private key should not be exposed to anyone.
-Also generate public and private keys in the other server as well using the same command
-Now you use your public key and copy paste it into the other server authentication keys to connect. 
-Now your all set to ssh into the other server (target server)
-Now you can use  Ansible adhoc commands to  execute small shell scripting commands/ to execute group of commands you can write a yaml file which is also called playbooks/ you can either execute roles and tasks if the commands are complicated. 
-You can upgrade servers/ talk with servers etc using Ansible.
